@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
           title: const Center(child: Text('Todolist')),
         ),
         body: const LandingPage(),
+        
       ),
     );
   }

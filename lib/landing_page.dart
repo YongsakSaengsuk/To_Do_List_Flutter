@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:todolist_app/list_container.dart';
 
 class LandingPage extends StatelessWidget {
   const LandingPage({super.key});
@@ -8,13 +9,11 @@ class LandingPage extends StatelessWidget {
     return const Center(
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
+        mainAxisSize: MainAxisSize.min,
         children: [
           Text("Todolist"),
           SizedBox(height: 10),
-          Column(
-            children: [
-              
-          ])
+          ListContainer()
         ],
       ),
     );
